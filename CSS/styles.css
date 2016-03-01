@@ -2,12 +2,12 @@
 	width: 500px;
 	padding: 30px;
 	margin: auto;
-	background-color: #cacaca;
+	background-color: white;
 	border-radius: 6px;
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
-#sign-up h1{
+h1{
 	background-color: #2a88ad;
 	padding: 20px 30px 15px;
 	margin: 30px;
@@ -18,7 +18,7 @@
 	box-shadow: 0px 2px 2px 0px rgba(255,255,255,0.17);
 }
 
-#sign-up h1 span{
+h1 span{
 	margin-top: 10px;
 	font-size: 14px;
 	display: block;
@@ -51,8 +51,15 @@
 #form-wrapper label input{
 	display: block;
 	box-shadow: 3px 3px 3px rgba(0,0,0,.7);
-	width: 100%;
+	width: 80%;
 	border-radius: 5px;
+	margin: auto;
+	padding: 5px;
+}
+
+.wrapper{
+	background-color: #ffe4c4;
+	padding: 10px;
 }
 
 
