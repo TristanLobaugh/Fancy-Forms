@@ -2,18 +2,71 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">	
 </head>
 <body>
 
 	<div id="form-wrapper">
 		<form id="sign-up-form">
-		
+	
+
 			<div id="sign-up">
-
+				<h1>Sign up Now!<span>Sign up and tell me what you think of my site!</span></h1>				
 			</div>
-			
 
+
+			<div id="name-wrapper">
+				<div class="section"><span>1</span>First Name & Address</div>
+				
+				<div class="inner-wrapper">
+					<label>Your full name
+						<input type="text" name="fullName" placeholder="Your full name" value=""></input>
+					</label>
+				</div>
+			</div>
+
+			<div id="address-wrapper">
+				<label>Addrress
+					<input type="text" name="address1" placeholder="Address" value="">
+				</label>
+			</div>
+
+
+			<div class="section"><span>2</span>Email & Phone</div>
+				<div id="email-wrapper">
+					<label>Email
+							<input type="email" name="email" placeholder="Email" value="">
+					</label>
+				</div>
+
+
+			<div class="section"><span>3</span>Password</div>
+				<div id="password-wrapper">
+					<label>Password
+							<input type="password" name="password" placeholder="Password" value="">
+					</label>
+				</div>
+				<div id="password-wrapper">
+					<label>Confirm Password
+							<input type="password" name="confirmpassword" placeholder="Confirm Password" value="">
+					</label>
+				</div>
+
+
+			<div class="section"><span>4</span>Skills</div>
+				<div id="skills-wrapper">
+					<label>My Tech Skills
+							<input type="text" name="textskills" placeholder="My Technical Skills" value="">
+					</label>
+					<label>My Age
+							<input type="number" name="age" placeholder="My Age" value="">
+					</label>
+				</div>
+				<div id="button-wrapper">
+					<input type="submit" value="Sign Me Up!">
+					<input type="checkbox" name="privacy">I agree to the terms and policies
+				</div>
 		</form>
 	</div>
 
