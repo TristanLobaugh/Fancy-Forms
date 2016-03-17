@@ -23,7 +23,9 @@ h1 span{
 	font-size: 14px;
 	display: block;
 }
-
+textarea{
+	width: 60%;
+}
  #wrapper .section{
 	font-size: 24px;
 	color: #2a88ad;
