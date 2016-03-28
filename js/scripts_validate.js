@@ -20,6 +20,7 @@ $(document).ready(function(){
 		}
 		else{
 			console.log("box not checked");
+			$(".errors").html = "box not checked";
 		}
 	});
 
